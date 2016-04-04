@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+都内在住、フリーランスのプログラマです。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Webアプリケーション開発をメインに受託しております。
+主にRuby, Java, JavaScript サーバサイド、フロントエンドのプログラミング等
+お手伝いできることがあれば、ご相談ください。
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+{% include icon-twitter.html username="tokzk" %} 
+
+

@@ -17,3 +17,7 @@ github_username:  tokzk
 
 # Build settings
 markdown: kramdown
+
+# Custom vars
+version:  2.1.0
+
