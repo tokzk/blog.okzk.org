@@ -21,3 +21,6 @@ markdown: kramdown
 # Custom vars
 version:  2.1.0
 
+paginate: 5
+
+gems: [jekyll-paginate]
