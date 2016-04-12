@@ -2,7 +2,7 @@
 layout: post
 title:  Jekyllでamazonアソシエイトリンクを作るためのgem ”jekyll-amazon”
 date:   2016-04-12 10:00:00 +0900
-categories: game
+categories: tech
 ---
 
 Jekyllでamazonアソシエイトリンクを作るための、jekyllプラグインを作りました。
