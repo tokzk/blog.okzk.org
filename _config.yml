@@ -25,3 +25,7 @@ paginate: 5
 
 gems: [jekyll-paginate, jekyll-amazon]
 
+deploy:
+- rsync -az -e ssh --delete . okzk:~/www/blog.okzk.org/
+
+exclude: ["Gemfile", "Gemfile.lock"]

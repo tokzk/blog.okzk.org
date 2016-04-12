@@ -5,4 +5,5 @@ gem 'github-pages'
 group :jekyll_plugins do
   gem 'jekyll-amazon'
   gem 'jekyll-compose'
+  gem 'jekyll-deploy'
 end
