@@ -1,0 +1,41 @@
+.archives.posts {
+  .post-date {
+    display: inline;
+  }
+}
+.posts {
+  .post {
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 1px 0 rgba(255,255,255,1);
+    margin-bottom: 3em;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+.highlighter-rouge {
+  background: #eef;
+}
+pre,
+code {
+    background-color: #eef;
+}
+
+    
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}

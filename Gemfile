@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-amazon'
   gem 'jekyll-compose'
   gem 'jekyll-deploy'
+  gem 'jekyll-archives'
 end

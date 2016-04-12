@@ -24,7 +24,10 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      {% for category in site.categories %}
+            <a class="sidebar-nav-item" href="/{{ category[0] }}/">{{ category[0] | capitalize }}</a>
+      {% endfor %}
+            
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
