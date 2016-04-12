@@ -23,4 +23,5 @@ version:  2.1.0
 
 paginate: 5
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-amazon]
+

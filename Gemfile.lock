@@ -9,6 +9,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    amazon-ecs (2.4.0)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -63,8 +66,12 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-amazon (0.1.1)
+      amazon-ecs (~> 2.4.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
+    jekyll-compose (0.4.1)
+      jekyll (>= 2.5.0)
     jekyll-feed (0.4.0)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
@@ -111,6 +118,7 @@ GEM
     rdiscount (2.1.8)
     redcarpet (3.3.3)
     rouge (1.10.1)
+    ruby-hmac (0.4.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.7.0)
@@ -128,6 +136,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-amazon
+  jekyll-compose
 
 BUNDLED WITH
    1.11.2
