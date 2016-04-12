@@ -1,0 +1,4 @@
+DirectoryIndex index.html index.cgi index.php .ht
+
+ErrorDocument 403 /error.html
+
