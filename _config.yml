@@ -31,6 +31,7 @@ gems:
   - jekyll-amazon
   - jekyll-archives
   - jekyll-sitemap
+  - jekyll-assets
 
 deploy:
 - rsync -az -e ssh --delete . okzk:~/www/blog.okzk.org/

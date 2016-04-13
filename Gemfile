@@ -7,4 +7,6 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-deploy'
   gem 'jekyll-archives'
+  gem 'jekyll-assets'
+  gem 'bootstrap-sass'
 end
