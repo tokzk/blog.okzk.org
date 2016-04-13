@@ -1,4 +1,5 @@
 body {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-size: 18px;
   background-color: #eee;
 }
@@ -23,27 +24,32 @@ body {
     }
     .post-date {
       color: #666;
-      margin-bottom: 1.5rem;
+      margin: 1.5rem 0;
+      padding: 4px 0;
+      border-top: 1px dotted #999;
+      border-bottom: 1px dotted #999;
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: 200%;
+      font-weight: 900;
+      line-height: 1.6;
     }
     h2 {
-      font-size: 2rem;
-      text-align: center;
-      margin: 2rem auto 0;
-      padding: 4rem 0;
+      font-size: 130%;
+      font-weight: bold;
+      line-height: 1.25;
+      margin: 40px 0 20px 0;
     }
     h3, h4, h5 {
-      font-size: 1.4rem;
-      margin: 1.6rem 0;
-      padding: 10px 0;
-      border-top: 1px dotted #777;
-      border-bottom: 1px dotted #777;
+      font-size: 106.6%;
+      font-weight: bold;
+      line-height: 1.25;
+      margin: 35px 0 20px 0;
     }
     p, pre, ul {
-      margin: 0 0 1.6rem;
+      display: block;
+      margin: 0 0 20px;
     }
   }
 }
