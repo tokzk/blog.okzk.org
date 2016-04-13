@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include bootstrap-head.html %}
 
   <body class="theme-base-0c">
 
     {% include sidebar.html %}
 
-    <div class="content container">
+    <div class="content">
       {{ content }}
     </div>
 
   </body>
 
+  <script>
+   $(function() {
+     $('table').addClass('table table-bordered')
+   });
+  </script>
 </html>

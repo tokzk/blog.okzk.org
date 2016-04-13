@@ -18,6 +18,9 @@ github_username:  tokzk
 # Build settings
 markdown: kramdown
 
+kramdown:
+  input: GFM
+
 # Custom vars
 version:  2.1.0
 
@@ -27,6 +30,7 @@ gems:
   - jekyll-paginate
   - jekyll-amazon
   - jekyll-archives
+  - jekyll-sitemap
 
 deploy:
 - rsync -az -e ssh --delete . okzk:~/www/blog.okzk.org/

@@ -46,9 +46,10 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "poole",
-        "hyde",
-        "syntax",
-        "override"
-;
+@import  "hyde", "pagination", "overwrite";
+/* @import */
+/*         "poole", */
+/*         "hyde", */
+/*         "syntax", */
+/*         "override" */
+/* ; */
