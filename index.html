@@ -17,19 +17,30 @@ layout: default
   {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+
+<!-- Pagination links -->
+<nav>
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+      <a href="{{ paginator.previous_page_path }}">Older</a>
+    </li>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    <li class="previous disabled">
+      <span class="previous">Older</span>
+    </li>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <li class="next">
+      <a href="{{ paginator.next_page_path }}" class="pager-next">Newer</a>
+    </li>
+    {% else %}
+    <li class="next disabled">
+      <span class="next ">Newer</span>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+
+{% include footer.html %}
