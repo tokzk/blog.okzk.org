@@ -19,14 +19,14 @@
     text-transform: uppercase;
     -webkit-user-select: none;
     -moz-user-select: none;
-    user-select: none
+    user-select: none;
   }
   .form-group input,
   .form-group button,
   .form-group textarea {
     display: block;
     font-size: 1rem;
-    padding: 0.25rem
+    padding: 0.25rem;
     min-width: 22rem;
   }
   textarea {
