@@ -15,7 +15,8 @@ body {
   }
 }
 .content {
-  .post {
+  .post, .page {
+    margin-bottom: 3rem;
     .post-title {
       a {
         color: #333;
@@ -31,18 +32,18 @@ body {
     }
 
     h1 {
-      font-size: 200%;
+      font-size: 1.8rem;
       font-weight: 900;
       line-height: 1.6;
     }
     h2 {
-      font-size: 130%;
+      font-size: 1.1rem;
       font-weight: bold;
       line-height: 1.25;
       margin: 40px 0 20px 0;
     }
     h3, h4, h5 {
-      font-size: 106.6%;
+      font-size: 1rem;
       font-weight: bold;
       line-height: 1.25;
       margin: 35px 0 20px 0;
@@ -54,3 +55,17 @@ body {
   }
 }
 
+hr {
+  height: 1px;
+  background: rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 rgba(255,255,255,1);
+}
+
+/** footer **/
+.site-footer {
+  margin-top: 5rem;
+
+  h1 {
+    font-weight: 900;
+  }
+}
