@@ -1,7 +1,7 @@
 .contact-form {
   .form-group {
     background: white;
-    display: inline-block;
+    display: block;
     border: 1px solid #ccc;
     margin: 0;
     border-bottom: none;
@@ -26,11 +26,13 @@
   .form-group textarea {
     display: block;
     border: none;
-    font-size: 1rem;
+    font-size: .8rem;
+    font-family: sans-serif;
     padding: 0.25rem;
-    min-width: 22rem;
+    width: 100%;
   }
   textarea {
+    height: 5rem;
     resize: vertical;
   }
 }

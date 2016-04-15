@@ -5,7 +5,10 @@ date:   2016-04-12 10:00:00 +0900
 categories: tech
 ---
 
-Jekyllでamazonアソシエイトリンクを作るための、jekyllプラグインを作りました。
+Markdownのタグで、Amazonのリンクを作るとなかなか、面倒くさそうだったので、Jekyllでamazonアソシエイトリンクを作るための、jekyllプラグインを作りました。
+
+が、Github-pagesだと動作しないのでどうしようか悩んでます。
+
 
 ## インストール
 
