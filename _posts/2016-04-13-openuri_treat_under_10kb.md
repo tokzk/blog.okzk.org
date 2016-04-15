@@ -5,9 +5,9 @@ date:   2016-04-13 12:52:28 +0900
 categories: tech
 ---
 
-### 現象
+RailsでcarrierwaveでS3でアップロードしたファイルをダウンロードする際、エラーが出ていたので、原因を調べて解決しました。
 
-RailsでcarrierwaveでS3でアップロードしたファイルをダウンロードする際、以下のようなエラーが出ていた。
+以下のようなエラーが出ていた。
 
 ```
 TypeError (no implicit conversion of StringIO into String):
