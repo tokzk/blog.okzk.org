@@ -132,7 +132,7 @@ $btn-color-active: white;
 
 /* Quotes */
 blockquote {
-  background-color: #f0e0e0;
+  background-color: $base-color;
   padding: .7rem .7rem;
   margin: .8rem 0;
   color: #7a7a7a;
@@ -165,4 +165,16 @@ blockquote p:last-child {
     font-size: .6rem;
     color: #333;
   }
+}
+
+/** table **/
+.table {
+  border: 1px solid $main-color;
+  th {
+    background-color: $main-color;
+  }
+  td {
+    background-color: $base-color;
+  }
+
 }
