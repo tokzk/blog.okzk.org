@@ -3,7 +3,6 @@
 $main-color: #5bc5bf;
 $base-color: #f0e0e0;
 $accent-color: #ed1d24;
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
@@ -12,3 +11,4 @@ $accent-color: #ed1d24;
 @import "pagination";
 @import "form";
 @import "overwrite";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Abril+Fatface);
