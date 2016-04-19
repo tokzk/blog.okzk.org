@@ -18,8 +18,8 @@ layout: default
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
     <li>
-      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
     {% endfor %}
   </ul>

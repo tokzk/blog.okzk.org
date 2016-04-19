@@ -28,11 +28,17 @@ layout: default
   <ul class="pager">
     {% if paginator.next_page %}
     <li class="previous">
-      <a href="{{ paginator.next_page_path }}" class="pager-next">Older</a>
+      <a href="{{ paginator.next_page_path }}" class="pager-next">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Older
+      </a>
     </li>
     {% else %}
     <li class="previous disabled">
-      <a href="#">Older</a>
+      <span>
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Older
+      </span>
     </li>
     {% endif %}
 
@@ -40,11 +46,17 @@ layout: default
 
     {% if paginator.previous_page %}
     <li class="next">
-      <a href="{{ paginator.previous_page_path }}">Newer</a>
+      <a href="{{ paginator.previous_page_path }}">
+        Newer
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
     </li>
     {% else %}
     <li class="next disabled">
-      <a href="#">Newer</a>
+      <span>
+        Newer
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </span>
     </li>
     {% endif %}
   </ul>
