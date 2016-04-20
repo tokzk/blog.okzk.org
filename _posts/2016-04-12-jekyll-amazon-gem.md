@@ -50,4 +50,4 @@ Gemfile に以下の行を追加。
 
 ## 参考
 
-{% amazon 4774158798 %}
+{% amazon 4774158798 detail %}
