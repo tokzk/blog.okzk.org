@@ -25,5 +25,6 @@ categories: game
 
 ## 参考
 
-[The End of the World by Sean Wenhamを App Store で](https://itunes.apple.com/jp/app/end-world-by-sean-wenham/id1043714288?mt=8){:target="_blank"}
+- [The End of the World by Sean Wenhamを App Store で](https://itunes.apple.com/jp/app/end-world-by-sean-wenham/id1043714288?mt=8)
+- [The End of the World](http://theendoftheworldgame.tumblr.com/)
 

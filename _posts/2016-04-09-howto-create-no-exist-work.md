@@ -21,7 +21,7 @@ categories: diary
 
 自分探しの旅に出ている人へ、この本に答えが書いてあるので、特におすすめです。
 
-{% amazon 4163903690 detail %}
+{% amazon B018JRLI06 detail %}
 
 ## 関連リンク
 
