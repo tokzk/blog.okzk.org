@@ -5,9 +5,8 @@ date:   2016-04-18 12:52:28 +0900
 categories: tech
 ---
 
-{% image how-to-create-frontend-contact-form.jpg %}
-
 コンタクトフォームを設置したいと思ったけど、Jekyllなので動的なプログラムは設置できない。それでは他に選択肢がないか調べたなかで良さそうなものを、紹介します。
+{% image how-to-create-frontend-contact-form.jpg %}
 
 プログラムいらずで、任意のフォームの入力をメールへ転送してくれるサービス 
 [MailThis.to](http://mailthis.to/)

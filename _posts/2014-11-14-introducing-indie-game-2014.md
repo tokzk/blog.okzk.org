@@ -5,10 +5,8 @@ date:   2014-11-14 12:00:00 +0900
 categories: game
 ---
 
-{% image indie-game-2014.jpg %}
-
-
 やたらハマった！気づいたら一日が終わっている！これはやっと系インディゲームを紹介する。
+{% image indie-game-2014.jpg %}
 
 ## Papers, Please
 

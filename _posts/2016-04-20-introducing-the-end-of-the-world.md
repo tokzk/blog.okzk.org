@@ -5,9 +5,8 @@ date:   2016-04-20 12:00:00 +0900
 categories: game
 ---
 
+ラジオ世代なのでポッドキャストが大好きです。そんな僕がお気に入りのポッドキャスト[タコおやじがぶつくさ言うラジオ～タコラジ!!](http://tacorajio.seesaa.net/){:target="_blank"} で紹介されていた、[The End of the World by Sean Denham](https://itunes.apple.com/jp/app/end-world-by-sean-wenham/id1043714288?mt=8) が気になったのでプレイしてみました。
 {% image the-end-of-the-world.jpg %}
-
-ラジオ世代なのでポッドキャストが大好きです。そんな僕がお気に入りのポッドキャスト[タコおやじがぶつくさ言うラジオ～タコラジ!!](http://tacorajio.seesaa.net/){:target="_blank"} で紹介されていた、[The End of the World by Sean Denham](https://itunes.apple.com/jp/app/end-world-by-sean-wenham/id1043714288?mt=8){:target="_blank"} が気になったのでプレイしてみました。
 
 <?
  The End of the World is a side-scrolling exploration game for the broken hearted. Set in Newcastle, England, you play a lonely man in a world that ended when he lost his love. By living day by day and in the past you unravel the circumstances that led to the end of the world, and maybe a way to move on. Essentially this is a break up game. 

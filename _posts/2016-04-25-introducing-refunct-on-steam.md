@@ -6,7 +6,6 @@ categories: game
 ---
 
 ここちよい雰囲気と音楽が心地よい世界で、ジャンプが気持ちいい一人称プラットフォーム・ゲームを紹介する。
-
 {% image introducing-refunct-on-steam.jpg %}
 
 
