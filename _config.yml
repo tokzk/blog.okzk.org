@@ -36,7 +36,7 @@ gems:
 deploy:
 - rsync -az -e ssh --delete . okzk:~/www/okzk.org/
 
-exclude: ["Gemfile", "Gemfile.lock"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "bin"]
 
 permalink: pretty
 
