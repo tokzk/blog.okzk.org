@@ -16,7 +16,7 @@ layout: default
 
     {{ post.excerpt }}
     <div class="readmore">
-      <a href="{{ post.url }}">続きを読む&raquo;</a>
+      <a class="btn btn-default btn-block" href="{{ post.url }}">&laquo; 続きを読む &raquo;</a>
     </div>
   </div>
   {% endfor %}
@@ -26,9 +26,9 @@ layout: default
 <!-- Pagination links -->
 <nav>
   <ul class="pager">
-    {% if paginator.next_page %}
+    {% if paginator.previous_page %}
     <li class="previous">
-      <a href="{{ paginator.next_page_path }}" class="pager-next">
+      <a href="{{ paginator.previous_page_path }}">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
       </a>
     </li>
@@ -42,9 +42,9 @@ layout: default
 
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
-    {% if paginator.previous_page %}
+    {% if paginator.next_page %}
     <li class="next">
-      <a href="{{ paginator.previous_page_path }}">
+      <a href="{{ paginator.next_page_path }}">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
     </li>
