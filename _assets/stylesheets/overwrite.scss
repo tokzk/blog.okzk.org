@@ -165,3 +165,50 @@ blockquote p:last-child {
     }
   }
 }
+
+/* media */
+@media (max-width: 48em) {
+  .html {
+    font-size: 16rem;
+  }
+  .sidebar {
+    padding: .5rem;
+  }
+  .sidebar-about {
+    h1 {
+      font-size: 5rem;
+    }
+    p.lead {
+      display: none;
+    }
+  }
+  .sidebar-nav-item {
+    display: inline;
+  }
+  .content {
+    padding-top: 0;
+  }
+  .content .post, .content .page {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 48em) {
+  .sidebar {
+    width: 12rem;
+  }
+  .content {
+    max-width: 32rem;
+    margin-left: 14rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 58em) {
+  .sidebar {
+    width: 16rem;
+  }
+  .content {
+    max-width: 38rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
+  }
+}
