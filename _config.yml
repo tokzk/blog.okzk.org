@@ -38,7 +38,7 @@ deploy:
 
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "bin"]
 
-permalink: pretty
+permalink: /blog/:title
 
 jekyll-archives:
   enabled:
