@@ -46,8 +46,10 @@ Gemfile に以下の行を追加。
 最低限のコードなので、もうちょっとスタイルされた出力を追加していきたい。
 
 
-[jekyll-amazon](https://github.com/tokzk/jekyll-amazon)
+[tokzk/jekyll-amazon](https://github.com/tokzk/jekyll-amazon)
+[jekyll-amazon | RubyGems.org | your community gem host](https://rubygems.org/gems/jekyll-amazon/)
 
 ## 参考
 
 {% amazon 4774158798 detail %}
+
