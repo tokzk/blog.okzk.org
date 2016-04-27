@@ -26,6 +26,8 @@ version:  2.1.0
 
 paginate: 10
 
+lsi: true
+
 gems:
   - jekyll-paginate
   - jekyll-amazon
