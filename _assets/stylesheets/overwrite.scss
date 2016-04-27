@@ -5,14 +5,18 @@ body {
   background-size: auto auto;
   letter-spacing: 0.8pt;
 }
+
+/** Index page **/
 .posts {
   .post {
+    .post-title {
+      margin-top: 0;
+    }
     padding-bottom: 1em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 0 1px 0 rgba(255,255,255,1);
     margin-bottom: 3em;
   }
 }
+
 .content {
   font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 游ゴシック体, 'Yu Gothic', YuGothic, メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 
@@ -21,9 +25,6 @@ body {
     font-size: .8rem;
     line-height: 1.8;
     .post-title {
-      a {
-        color: #333;
-      }
       margin-bottom: 0;
     }
     .post-meta {
