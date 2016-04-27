@@ -21,6 +21,11 @@ permalink: /about/
       <i class='fa fa-fw fa-github'></i>
     </a>
   </li>
+  <li>
+    <a class="btn-outline btn-social" href='{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}'>
+      <i class='fa fa-fw fa-rss'></i>
+    </a>
+  </li>
 </ul>
 
 <div class="contact-form">

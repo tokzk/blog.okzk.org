@@ -27,6 +27,18 @@
       {% for category in site.categories %}
             <a class="sidebar-nav-item" href="/{{ category[0] }}/">{{ category[0] | capitalize }}</a>
       {% endfor %}
+
+      <div class="social-buttons">
+        <a href='https://twitter.com/tokzk'>
+          <i class='fa fa-fw fa-twitter'></i>
+        </a>
+        <a href='https://github.com/tokzk'>
+          <i class='fa fa-fw fa-github'></i>
+       </a>
+       <a href='{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}'>
+          <i class='fa fa-fw fa-rss'></i>
+      </a>
+     </div>
             
     </nav>
 
