@@ -6,6 +6,16 @@ permalink: /read/
 
 ### 2016/05
 
+{% amazon 4063623300 detail %}
+
+{% amazon 4088806719 detail %}
+
+{% amazon 4801907008 detail %}
+
+{% amazon 4122029570 detail %}
+
+{% amazon 4344028988 detail %}
+
 {% amazon 4800254965 detail %}
 
 {% amazon 459214547X detail %}
