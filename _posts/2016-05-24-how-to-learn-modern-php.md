@@ -54,8 +54,8 @@ tmp/      # テンポラリ
 
 #### tmp/
 
-作りかけとかいらなくなったものとかは`tmp`にぶち込んでおきます。
-`.gitignore`には`tmp`とだけ書いておけば、tmp以下はリポジトリにはコミットされません。`git status`などでも余計なファイルが表示されないようにします。
+作りかけとかいらなくなったものとかは`tmp/`にぶち込んでおきます。
+`.gitignore`には`tmp/`とだけ書いておけば、`tmp/`以下はリポジトリにはコミットされません。`git status`などでも余計なファイルが表示されないようにします。
 
 #### README.md
 
@@ -64,7 +64,7 @@ githubなりbitbucketなりでトップページに表示される内容にな�
 
 ### ローカルサーバ
 
-以前はXAMPPとかローカルのApacheなどがありました。Ruby on Railsでpowを使ってた場合などに併用に苦労した覚えがありますが、現在はビルトインウェブサーバがあるようなので、それを使用することにします。
+以前はXAMPPとかローカルのApacheなどがありました。Ruby on Railsで[Pow](http://pow.cx/)を使ってた場合などに併用に苦労した覚えがありますが、現在はビルトインウェブサーバがあるようなので、それを使用することにします。
 
 以下のようなファイルをワーキングディレクトリに配置して、`./bin/phpd`とかでサーバを起動するようにします。
 
@@ -106,11 +106,11 @@ sendmail_path = /usr/bin/env catchmail
 今回はメールを飛ばすプログラムなので、ダミーのSMTPサーバを用意しておきます。
 メールはテスト中に実際に飛んでいってしまうとトンデモナイことになることが多いので注意が必要です。
 
-Railsでは`letter_opener`や<http://mailtrap.io/>などで対応していましたが、今回はローカルのsendmail(postfix)を使う代わりに、[MailCatcher](https://mailcatcher.me/)を使うことで対応します。
+Railsでは[letter_opener](https://github.com/ryanb/letter_opener)や<http://mailtrap.io/>などで対応していましたが、今回はローカルのsendmail(postfix)を使う代わりに、[MailCatcher](https://mailcatcher.me/)を使うことで対応します。
 
 `php.ini-development`の最下行に加えた一文でプログラムが送信したメールはMailCatcherが拾ってWebで確認できるようなります。
 
-以下のようなファイルを`bin`に置いておくと、しばらく立って忘れたとき、思い出すきっかけになるので簡単なものでも作っておいたりします。
+以下のようなファイルを`bin/`に置いておくと、しばらく立って忘れたとき、思い出すきっかけになるので簡単なものでも作っておいたりします。
 
 ```
 #!/bin/sh
@@ -132,9 +132,9 @@ maicatcher && open http://localhost:1080/
 これをどんどんクラス化していくなかで、今までの感じだと、`require_once`を列挙してクラスを読み込むことになってしまう。
 
 しかし、現在は、命名規則とクラスローダーを使うことで煩雑な作業を省略することができる。
-まずは、[jwagejwage/SplClassLoader.php](https://gist.github.com/jwage/221634) でクラスローダーをダウンロードしてきて、srcディレクトリに配置すします。
+まずは、[jwagejwage/SplClassLoader.php](https://gist.github.com/jwage/221634) でクラスローダーをダウンロードしてきて、`src/`に配置すします。
 
-`./public_html/phptest.php`というファイルを用意して、以下のように記述し、SplClassLoader.phpを読み込みます。
+`./public_html/phptest.php`というファイルを用意して、以下のように記述し、`SplClassLoader.php`を読み込みます。
 
 
 ```./public_html/phptest.php
@@ -167,7 +167,7 @@ class Entry {
 
 ### コーディング規約
 
-各フレームワークで乱立していたコーディング規約が最近は、皆で統一しようとなったようで、PSRというコーディング規約に集約されつつあるようです。郷に入らば郷に従えなので、これに従って行きましょう。
+各フレームワークで乱立していたコーディング規約が最近は、皆で統一しようとなったようで、[PHP-FIG](http://www.php-fig.org/)で扱っている、PSR(PHP Standards Recommendations)というのに集約されつつあるようです。郷に入らば郷に従えなので、これに従って行きましょう。
 
 大体のポイントを抑えれば、大分綺麗になるようです。
 正確な記述はPSRを見てもらい、ここでは、以下のような感じで作っていきます。
@@ -187,10 +187,11 @@ class Entry {
 - 変数のある文字列はダブルクォーテーションでくくる。
 - 一行が80-120行以内ぐらいでおさまるように。
 - 変な省略はしない。
-- if分は1行で書かない。カッコは省略しない
-- メソッド、プロパティなどはアクセス制限をちゃんとかく。private public protected
+- if文は1行で書かない。カッコは省略しない
+- メソッド、プロパティなどはアクセス制限(private public protected)をちゃんとかく。
 - タブは使わない、インデントはスペース4文字
-- 制御文と引数、引数とカッコの間は1スペース 例：`if(condition){` -> `if (condition){`
+- 制御文と引数、引数とカッコの間は1スペース
+     - 例：`if(condition){` -> `if (condition){`
 
 あとは`php-cs-fixer`や`PHP_CodeSniffer`というようなコーディングスタイルチェックツールに自動で訂正してもらうのに従うのが楽そう。今回は最終的に、`php-cs-fixer`を使ってます。
 
@@ -206,21 +207,22 @@ class Entry {
 - booleanを0/1で判断しているものはtrue/falseに置き換える。
     - `private $remail = 1` → `const SEND_AUTOREPLY_MAIL = true`
 - 複雑すぎたり意味の分かりにくいconditionをメソッドや定数に置き換える。
-    - `if($remail == 1){` → `if (self::SEND_AUTREPLY_MAIL) {`
+    - `if($remail == 1){` → `if ($this->isSendAutoreplyMail()) {`
 - 深いネストはガード節を使用して早めに判断して抜ける。
 - HTMLで記述されてるところを一つのメソッドにまとめる。
-    
+
 ```
 $err .= "<div class='caution'>「電話番号」は入力必須です。</div>\n";
 ```
+
 ↓
 
 ```
 $err .= $this->errorMessage(self::ERROR_REQUIRED, ’電話番号’);
 
-   private function errorMessage($type, $key)
-    {
-        switch ($type) {
+private function errorMessage($type, $key)
+{
+    switch ($type) {
         case self::ERROR_REQUIRED:
             $msg = "<div class='caution'>「".$key."」は入力必須です。</div>\n";
             break;
@@ -233,6 +235,10 @@ $err .= $this->errorMessage(self::ERROR_REQUIRED, ’電話番号’);
 
 ## まとめ
 
-3日位で、駆け足で調べてみましたが、さすがはPHPは開発者が多いこともあって情報も多く、最近は大分道が整備されてるように思えます。ブログ等は結構古いことも多いので、PHP.net等が充実しているのでそちらを参考にするほうがいいでしょう（ここも例外ではないです（笑）
+3日位で、駆け足で調べてみましたが、さすがはPHPは開発者が多いこともあって情報も多く、最近は大分道が整備されてるように思えます。ブログ等は結構古い（or古くなる)ことも多いので、以下の参考資料等が充実しているのでそちらを参考にするほうがいいでしょう（ここも例外ではないです（笑）
+
+* [PHP: The Right Way](http://ja.phptherightway.com/)を読む
+* [PHP Standards Recommendations - PHP-FIG](http://www.php-fig.org/psr/)を読む
+* [PHP: Hypertext Preprocessor](http://php.net/)を読む
 
 
