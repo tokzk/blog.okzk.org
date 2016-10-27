@@ -1,18 +1,20 @@
+.jk-amazon-info-title {
+  padding-bottom: 10px;
+}
+
+.jk-amazon-image {
+  float: left;
+  min-height: 1px;
+  width: 130px;
+  padding: 10px;
+  background-color: #eaeaea;
+}
+
 .jk-amazon-item {
   margin-bottom: 20px;
-  .jk-amazon-image {
-    float: left;
-    min-height: 1px;
-    width: 130px;
-    padding: 10px;
-    background-color: #eaeaea;
-  }
   .jk-amazon-info {
     margin-left: 140px;
     min-height: 1px;
-    .jk-amazon-info-title {
-      padding-bottom: 10px;
-    }
     .jk-amazon-info-description {
       font-size: .6rem;
       .jk-amazon-info-label {
