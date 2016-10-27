@@ -7,7 +7,7 @@ categories: diary
 
 ミニニンジンはじめました。どんどん伸びろ。
 
-- [ミニニンジンはじめました(1週め)]({% link _drafts/baby-carrot-1.md %})
+- [ミニニンジンはじめました(1週め)]({% link _posts/baby-carrot-1.md %})
 
 ## 8日目 - 2016/10/03 (月)
 順調。葉先に種の殻が付いてるのがあって取ろうとしたけどほっておいた。
@@ -47,4 +47,4 @@ categories: diary
 朝からディズニーに行っていて写真を撮り忘れた。
 雨が大分強かったが、元気だった。
 
- [続く]({% link _drafts/baby-carrot-3.md %})
+ [続く]({% link _posts/baby-carrot-3.md %})

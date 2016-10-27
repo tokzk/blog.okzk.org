@@ -7,9 +7,9 @@ categories: diary
 
 ミニニンジンはじめました。やはり間引くと残ったモノらに栄養が集まるようだ。
 
-- [ミニニンジンはじめました(1週め)]({% link _drafts/baby-carrot-1.md %})
-- [ミニニンジンはじめました(2週め)]({% link _drafts/baby-carrot-2.md %})
-- [ミニニンジンはじめました(3週め)]({% link _drafts/baby-carrot-3.md %})
+- [ミニニンジンはじめました(1週め)]({% link _posts/baby-carrot-1.md %})
+- [ミニニンジンはじめました(2週め)]({% link _posts/baby-carrot-2.md %})
+- [ミニニンジンはじめました(3週め)]({% link _posts/baby-carrot-3.md %})
 
 ## 22日目 - 2016/10/17 (月)
 間引いたので大分スッキリした。

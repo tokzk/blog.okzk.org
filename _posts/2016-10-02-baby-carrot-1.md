@@ -71,4 +71,4 @@ categories: diary
 
 {% image baby-carrot-1-7.jpg %}
 
- [続く]({% link _drafts/baby-carrot-2.md %})
+ [続く]({% link _posts/baby-carrot-2.md %})
