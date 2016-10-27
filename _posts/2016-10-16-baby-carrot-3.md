@@ -7,9 +7,6 @@ categories: diary
 
 ミニニンジンはじめました。間引くの大変。
 
-- [ミニニンジンはじめました(1週め)]({% link _posts/baby-carrot-1.md %})
-- [ミニニンジンはじめました(2週め)]({% link _posts/baby-carrot-2.md %})
-
 ## 15日目 - 2016/10/10 (月)
 育ちは順調。新品のテレビが来るのに浮かれて写真を撮り忘れた。
 
@@ -43,5 +40,3 @@ categories: diary
 この後、近所の祭に行き串焼きを食った。
 
 {% image baby-carrot-3-21.jpg %}
-
- [続く]({% link _posts/baby-carrot-4.md %})

@@ -70,5 +70,3 @@ categories: diary
 葉が出たら光合成で更に成長すると言われ期待感が膨らむ。
 
 {% image baby-carrot-1-7.jpg %}
-
- [続く]({% link _posts/baby-carrot-2.md %})
