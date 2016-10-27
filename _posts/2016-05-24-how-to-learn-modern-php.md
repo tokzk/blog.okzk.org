@@ -1,6 +1,7 @@
 ---
 layout: post
-title: モダンなPHPの開発の学び方 date:   2016-05-24 20:30:00 +0900
+title: モダンなPHPの開発の学び方
+date:   2016-05-24 20:30:00 +0900
 categories: tech
 ---
 

@@ -16,6 +16,7 @@ Jekyllで記事を作った後、関連記事が常に最新の3件が表示さ�
 2. `rb-gsl`をインストールする
     `Gemfile`に以下を追加
 
+        gem ‘nmatrix’
         gem ‘gsl’
 
     インストールする。
