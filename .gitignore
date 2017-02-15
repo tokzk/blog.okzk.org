@@ -1,7 +1,10 @@
-_site
-_drafts
-.sass-cache
-.jekyll-metadata
+!.keep
+*.DS_Store
+*.sass-cache
+/.asset-cache/*
+/.amazon-cache/*
+/_site/*
+/_drafts/*
+/.jekyll-metadata/*
 .envrc
-.amazon-cache
-.asset-cache
+

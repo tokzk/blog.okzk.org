@@ -10,7 +10,7 @@ categories: tech
 1. [Swifty: Learn how to code in Swift!](https://hellocode.io/swifty/)
 2. [iOS Development with Swift Tutorial](https://thenewboston.com/videos.php?cat=280)
 3. [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials](https://www.hackingwithswift.com/)
-4. {% amazon B01BB2U0PA %}
+4. [Epic SpriteKit Tutorial with Swift 3](https://itunes.apple.com/jp/book/epic-spritekit-tutorial-swift/id1080204614?mt=11)
 
 * * *
 
@@ -70,7 +70,7 @@ SpriteKitが中々面白かったので、よりゲーム寄りなチュート�
 
 結構同じ記述のオブジェクトが多かったりもするので、もっと継承やら抽象化やらで簡単にできると思うのだが、チュートリアルだということであえて繰り返しが多くしているのだと思う。写経に向いている。言語は体で覚えよう。
 
-- {% amazon B01BB2U0PA %}
+- [Epic SpriteKit Tutorial with Swift 3](https://itunes.apple.com/jp/book/epic-spritekit-tutorial-swift/id1080204614?mt=11)
 
 * * *
 

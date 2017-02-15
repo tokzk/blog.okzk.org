@@ -1,4 +1,5 @@
 body {
+  font-feature-settings : "palt";
   font-size: 16px;
   background-image: url(asset_path("bright_squares"));
   background-repeat: repeat;
@@ -18,8 +19,7 @@ body {
 }
 
 .content {
-  font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 游ゴシック体, 'Yu Gothic', YuGothic, メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-
+  font-family :"Times New Roman", "游明朝", YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ", Meiryo, serif;
   .post, .page {
     margin-bottom: 3rem;
     font-size: .8rem;

@@ -19,7 +19,7 @@ $ ruby -ropenssl -e 'p OpenSSL::X509::DEFAULT_CERT_FILE'
 
 ファイルがないのでここに作る
 
-````
+```
 /Users/okzk/.rvm/usr/ssl/cert.pem
 ```
 

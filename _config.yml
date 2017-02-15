@@ -57,3 +57,8 @@ jekyll-archives:
   layout: 'archive'
   permalinks:
     category: '/:name/'
+
+jekyll-amazon:
+  locale: 'ja'
+  country: 'jp'
+  template_dir: '_templates'
