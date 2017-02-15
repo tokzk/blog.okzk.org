@@ -5,7 +5,7 @@
 
 ## Move to post
 
-    $ jekyll publish _draft/how-to-create-draft-with-such-title.md
+    $ jekyll publish _draft/how-to-create-draft-with-such-title.md --date 2016-01-24
 
 ## Build site
 
