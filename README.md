@@ -21,7 +21,7 @@
 
 ## Build production site and deploy
 
-    $ ./bin/deploy.sh
+    $ ./bin/deploy
 
 ## deploy
 
