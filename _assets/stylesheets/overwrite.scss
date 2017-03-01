@@ -7,6 +7,14 @@ body {
   letter-spacing: 1.2pt;
 }
 
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  code {
+    white-space: pre;
+  }
+}
+
 /** Index page **/
 .posts {
   .post {
