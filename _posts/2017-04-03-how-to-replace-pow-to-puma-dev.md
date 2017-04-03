@@ -1,6 +1,7 @@
 ---
 layout: post
-title: PowからPuma-devへ切り換える date:   2017/03/31 14:20:00 +0900
+title: PowからPuma-devへ切り換える
+date:   2017/04/03 14:20:00 +0900
 categories: tech
 ---
 Railsの開発を複数行っている時、一々サーバ起動するのが面倒なので、Powを使用して、`http://rails-app.dev/`、 `http://rails-app2.dev/`のような形で、アクセス出来るようにしてある。すこしその環境に不満が出てきたので新たなツールへ置き換えてみることにする。
@@ -56,3 +57,7 @@ group :development do
   gem 'puma'
 end
 ```
+
+---
+
+{% amazon B016WKJQVK detail %}
