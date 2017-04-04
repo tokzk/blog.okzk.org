@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowからPuma-devへ切り換える
+title: Rails開発環境をPowからPuma-devへ切り換える
 date:   2017/04/03 14:20:00 +0900
 categories: tech
 ---
