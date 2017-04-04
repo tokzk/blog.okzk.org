@@ -7,4 +7,4 @@
 /_drafts/*
 /.jekyll-metadata/*
 .envrc
-
+tmp/**/*
