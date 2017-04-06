@@ -28,33 +28,4 @@ permalink: /about/
   </li>
 </ul>
 
-<div class="contact-form">
-  <form action="http://mailthis.to/tokzk" method="post">
-    <div class="form-group">
-      <label for="email">
-        <i class='fa fa-envelope-o'></i>
-        メールアドレス(必須)
-      </label>
-      <input type="email" name="email" id="email">
-    </div>
-    <div class="form-group">
-      <label for="message">
-        <i class='fa fa-comment-o'></i>
-        メッセージ本文(必須)
-      </label>
-      <textarea name="message" id="message"></textarea>
-    </div>
-    <div class="form-group">
-      <button type="submit" id="submitBtn">
-        <i class='fa fa-paper-plane'></i>
-        送信
-      </button>
-      <input type="hidden" name="_subject" value="お問い合わせ">
-      <input type="hidden" name="_replyto" value="%email">
-      <input type="hidden" name="_valid[email]" value="valid_email">
-      <input type="hidden" name="_valid[message]" value="min_length[10]">
-      <input type="hidden" name="_after" value="{{ site.url }}/thanks/">
-      <input type="text" name="_honey" value="" style="display:none">
-    </div>
-  </form>
-</div>
+{% include contact-form.html %}
