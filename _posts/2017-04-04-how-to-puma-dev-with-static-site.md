@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 静的サイトをPuma-devで管理/herokuにデプロイする date:   2017/04/04 12:00:00 +0900
+title: ローカルの静的なWebサイトにhttpでアクセスして確認する方法 date:   2017/04/04 12:00:00 +0900
 categories: tech
 ---
 
