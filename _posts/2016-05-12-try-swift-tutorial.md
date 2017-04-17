@@ -7,10 +7,10 @@ categories: tech
 
 １年に一つは新しい言語を習得していこうと思っていて、今年は、Swiftを書いていこうと思っている。というわけで、なにかアプリを作ってみようと、いくつかチュートリアルなどをやってみたので、そのうち、個人的に良かったものに関して記録していく。
 
-1. [Swifty: Learn how to code in Swift!](https://hellocode.io/swifty/)
-2. [iOS Development with Swift Tutorial](https://thenewboston.com/videos.php?cat=280)
-3. [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials](https://www.hackingwithswift.com/)
-4. [Epic SpriteKit Tutorial with Swift 3](https://itunes.apple.com/jp/book/epic-spritekit-tutorial-swift/id1080204614?mt=11)
+1. [Swifty: Learn how to code in Swift!][1]
+2. [iOS Development with Swift Tutorial][2]
+3. [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials][3]
+4. [Epic SpriteKit Tutorial with Swift 3][4]
 
 * * *
 
@@ -22,7 +22,8 @@ categories: tech
 
 穴埋めや選択などのクイズ形式で学習できるので暇な時間にiPhone片手にポチポチしていくことで、大まかなSwiftの概要が分かってくる。Swift自体どんどんアップデートされて言語仕様が変わるのだが、アプリもアップデートしていくので、改めて確認することも出来る。
 
-- [Swifty: Learn how to code in Swift!](https://hellocode.io/swifty/)
+- [Swifty: Learn how to code in Swift!][1]
+
 
 * * *
 
@@ -37,7 +38,7 @@ THENEWBOSTONで公開されているオンラインビデオチュートリア�
 
 40ほどのビデオがあるが、ゲームを作らないならもう少し手前で終わるだろう。Xcode片手に写経写経。
 
-- [iOS Development with Swift Tutorial](https://thenewboston.com/videos.php?cat=280)
+- [iOS Development with Swift Tutorial][2]
 
 * * *
 
@@ -52,7 +53,8 @@ Hacking With Swiftで公開されているチュートリアル。TUTORIALをク
 最初は30章弱しかなかったが、のちに10章ぐらい追加された。
 自分は電子書籍版を購入したが、章ごとのファイルだったので、若干扱いが面倒だったけど（今は違うかも）、やはり横にiPad立てかけながら見るのはやりやすい。やはりこれもSwiftのアップデートに追従している。
 
-- [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials](https://www.hackingwithswift.com/)
+- [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials][3]
+
 
 * * *
 
@@ -70,14 +72,27 @@ SpriteKitが中々面白かったので、よりゲーム寄りなチュート�
 
 結構同じ記述のオブジェクトが多かったりもするので、もっと継承やら抽象化やらで簡単にできると思うのだが、チュートリアルだということであえて繰り返しが多くしているのだと思う。写経に向いている。言語は体で覚えよう。
 
-- [Epic SpriteKit Tutorial with Swift 3](https://itunes.apple.com/jp/book/epic-spritekit-tutorial-swift/id1080204614?mt=11)
+- [Epic SpriteKit Tutorial with Swift 3][4]
 
 * * *
 
 ## まとめ
 
-全て英語のコンテンツでチュートリアルをやったけれど、ソースコードがあるので、意味がぜんぜん分からないということはなく進められた。
+全て英語のコンテンツでチュートリアルをやったけれど、ソースコードがあるので、大抵問題なく進められた。
 
 特にメソッド名やクラス名、コメントの書き方などは英語コンテンツの方が分かりやすいのと、書籍と違って、Swift自体が更新されるので、随時追従してくれてるのが嬉しい。（書籍等で正誤表や、更新部分だけのPDF配布などもあるが読む側にとっては面倒すぎる）
+
+---
+1. [Swifty: Learn how to code in Swift!][1]
+2. [iOS Development with Swift Tutorial][2]
+3. [Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials][3]
+4. [Epic SpriteKit Tutorial with Swift 3][4]
+
+
+[1]:https://itunes.apple.com/jp/app/swifty-learn-to-code-tutorials-for-swift/id886315617 "Swifty: Learn to code tutorials for Swift"
+[2]:https://thenewboston.com/videos.php?cat=280 "iOS Development with Swift Tutorial"
+[3]:https://www.hackingwithswift.com/ "Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials"
+[4]:https://itunes.apple.com/jp/book/epic-spritekit-tutorial-swift/id1080204614?mt=11 "Epic SpriteKit Tutorial with Swift 3"
+
 
 
