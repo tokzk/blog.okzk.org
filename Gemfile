@@ -1,10 +1,12 @@
 source "https://rubygems.org"
 
+ruby '2.3.4'
 # gem 'github-pages'
 gem 'jekyll'
 
 group :jekyll_plugins do
   gem 'bootstrap-sass'
+  gem 'coffee-script'
   gem 'font-awesome-sass'
   gem 'jekyll-amazon'
   gem 'jekyll-archives'
